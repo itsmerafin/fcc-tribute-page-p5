@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#title{
+    background-color: #C5C5C5;
+    overflow: hidden;
+}
+#title h1{
+    font-size:50px;
+    text-align: center;
+    margin:40px;
+    color: #333333;
+}
+#title p {
+    text-align:center;
+    margin:16px;
+    font-size: 23px;
+    color: #333333;
+}
+#img-div{
+    text-align: center;
+}
+#img-div img {
+    width: 80%;
+    margin: 15px 0;
+}
+#img-div #img-caption p {
+    text-align:center;
+    margin:16px;
+    font-size: 23px;
+    color: #333333;
+}
+#tribute-info {/* 
+    text-align: center; */
+    overflow: hidden;
+    color: #333333;
+    background-color: #C5C5C5;
+}
+#tribute-info h2{
+    color: #333333;
+    text-align: center;
+    font-size: 40px;
+    margin: 50px;
+}
+#tribute-info ul {
+    font-size: 35px;
+    width:30%;
+    margin: auto;
+
+}
+#tribute-info ul li {
+    margin: 15px;
+}
+#tribute-link {
+    background-color: #C5C5C5;
+    overflow: hidden;
+}
+
+#tribute-link p {
+    font-size: 23px;
+    color: #333333;
+    width: 30%;
+    margin: 50px auto;
+    text-align: center;
+
+}
+
+.link {
+    font-size: 30px;
+    color: #333333;
+    font-weight: bold;
+
+}
+p a {
+    text-decoration: none;
+    color: #8b2be4;
+
+}
+p a:hover {
+    color: green;
+}
+
+@media all and (max-width: 900px) {
+
+    #tribute-info ul {
+        font-size: 35px;
+        width:80%;
+        margin: auto;
+
+}
+
